@@ -26,6 +26,8 @@ https://www.banggood.com/Geekcreit-ESP32-CAM-WiFi-bluetooth-Camera-Module-Develo
 ## How to fix build issues
 The buffertools depenceny of the mjpeg proxy has a lots of visual studio related requirements.
 I faced many issues installing so I collected here some hints if you have build errors like me, you can find solution here:
+
+
 https://catalin.me/how-to-fix-node-js-gyp-err-cant-find-python-executable-python-on-windows/
 
 https://github.com/nodejs/node-gyp/issues/307
