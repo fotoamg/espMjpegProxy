@@ -1,0 +1,31 @@
+<html>
+
+<head>
+
+    <script>
+        var Http = new XMLHttpRequest();
+
+        function callControlUrl(param_name, param_val) {
+            Http.open("GET", 'http://192.168.20.111/control?var=' + param_name + '&val=' + param_val);
+            Http.send();
+        }
+
+        callControlUrl('dcw', '0');
+
+        Http.onreadystatechange = (e) => {; //console.log(Http.responseText)
+        }
+    </script>
+
+</head>
+
+<body style="background-color:black">
+    <center>
+        <button onclick="callControlUrl('framesize', '10')">HQ</button>
+        <button onclick="callControlUrl('framesize', '6')">MQ</button>
+        <button onclick="callControlUrl('framesize', '5')">LQ</button>
+        <br/>
+        <img src="http://192.168.20.201:8080/index1.jpg">
+    </center>
+</body>
+
+</html>

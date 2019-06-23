@@ -1,0 +1,31 @@
+{
+  "name": "esp32camproxy",
+  "version": "1.0.0",
+  "description": "local multi connection proxy for esp32cam",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fotoamg/espMjpegProxy.git"
+  },
+  "author": "Miklos Aszriev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fotoamg/espMjpegProxy/issues"
+  },
+  "homepage": "https://github.com/fotoamg/espMjpegProxy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mjpeg-proxy": "^0.2.0",
+    "node-gyp": "^5.0.1"
+  },
+  "devDependencies": {
+    "ember-cli-sass": "^10.0.1",
+    "ember-frost-core": "^8.7.2",
+    "ember-frost-tabs": "^10.0.2",
+    "ember-tooltips": "^3.3.3"
+  }
+}
